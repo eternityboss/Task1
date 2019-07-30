@@ -46,7 +46,7 @@ bool ReadSTLFile::ReadFile(const char *cfilename)
 	result = fread(buffer, 1, size, pfile);
 	if (result != size)
 	{
-		fputs("reading error", stderr);
+		fputs("reading error 12312313", stderr);
 		exit(3);
 	}
 	//关闭文件，释放内存
